@@ -6,7 +6,9 @@ A Python library + CLI + MCP server that maintains an always-correct structural
 code graph (functions, classes, imports, calls, tests) and serves
 token-budgeted, confidence-labeled context to AI coding agents.
 
-**Status: design phase.** The approved design spec lives at
+**Status: v0.1 core engine in development** — Python parsing, two-pass
+import-aware resolution, subtoken search, and CLI are implemented; freshness
+(self-healing reads) and the MCP server land next. Design spec:
 [`docs/superpowers/specs/2026-07-17-graphdex-design.md`](docs/superpowers/specs/2026-07-17-graphdex-design.md).
 
 ## Why graphdex
